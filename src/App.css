@@ -1,38 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro&family=Square+Peg&display=swap');
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 25pt;
+  background-image: url("background.png");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 100vh;
+  min-width:100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.animalButton{
+  font-family: 'Source Sans Pro', sans-serif;
+  max-height: 11vh;
+  width: 11vw;
+  min-width: 100px;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 10px 10px 5px black;
+  font-size: 12pt;
+  height: 11vh;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ageBox{
+  height: 100%;
+}
+
+.goButton{
+  height: 100%;
+}
+
+.inputRow{
+  height: 3.5vh;
+}
+
+button{
+  font-family: 'Pacifico', cursive;
+}
+
+.buttonBox{
+  margin-top: 5vh;
+  width: 100%;
+  min-height: 10vh;
+  height: auto;
+}
+
+.title{
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.15em;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+}
+
+.outputBox{
+  font-size: 30pt;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 0.15em;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .title{
+    font-size: 50pt;
   }
-  to {
-    transform: rotate(360deg);
+
+  .outputBox{
+    font-size: 45pt;
   }
 }
