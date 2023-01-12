@@ -67,6 +67,11 @@ const animals = [
         "name" : "fortnight",
         "namePlural" : "fortnights",
         "minLifeSpan" : .038356,
+    },
+    {
+        "name" : "Puss in Boots: The Last Wish",
+        "namePlural" : "Puss in Boots: The Last Wishes",
+        "minLifeSpan" : .00020357686,
     }
 
 ]
